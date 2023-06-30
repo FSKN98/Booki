@@ -1,0 +1,615 @@
+html,
+body {
+  font-family: "Raleway";
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+/* HEAD */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 48px 0;
+}
+.mainContainer {
+  padding: 15px 50px;
+}
+.logoBookiHeader {
+  width: 62px;
+  height: 19px;
+  padding-left: 50px;
+}
+.menuHeader {
+  margin: 0;
+  padding: 0;
+}
+.menuHeader > li {
+  display: inline-block;
+}
+.buttonsHeader {
+  font-style: normal;
+  font-size: 16px;
+  text-decoration: none;
+  color: #000000;
+  padding: 48px 77px;
+}
+.buttonsHeader:hover {
+  border-top: 2px solid #0065fc;
+  max-width: 162px;
+  color: #0065fc;
+}
+/*GENERAL*/
+.flexCenter {
+  display: flex;
+  justify-content: center;
+}
+.flexCenterIconPin {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.flexAround {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.flexBetween {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.flexColumnCenter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.SizeTitle {
+  font-size: 22px;
+}
+.fontSize16 {
+  font-size: 16px;
+}
+.fontSize18 {
+  font-size: 18px;
+}
+.backHome {
+  background-color: #f2f2f2;
+}
+.colorBlue {
+  color: #0065fc;
+}
+.colorGrey {
+  color: #f2f2f2;
+}
+.boldText {
+  font-weight: 700;
+}
+.radius20 {
+  border-radius: 20px;
+}
+/* SEARCH */
+.searchInputContainer {
+  height: 49px;
+  width: fit-content;
+  display: flex;
+  border: 1px solid #f2f2f2;
+  border-radius: 15px;
+  overflow: hidden;
+}
+.searchIconContainer {
+  width: 50px;
+  height: 100%;
+  background-color: #f2f2f2;
+}
+.searchInput {
+  height: 100%;
+  border: 0;
+  width: 232px;
+  padding-left: 20px;
+}
+.searchButton {
+  height: 100%;
+  width: 132px;
+  background-color: #0065fc;
+  color: white;
+  border: 0;
+  cursor: pointer;
+}
+.iconSearch {
+  display: none;
+}
+.searchMobile {
+  display: flex;
+  justify-content: center;
+}
+/* FILTER */
+.filterContainer {
+  display: flex;
+  justify-content: space-between;
+  max-width: 920px;
+  align-items: center;
+  margin-top: 40px;
+}
+.filterTitle {
+  margin: 0;
+  padding: 0;
+}
+.filterButtonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 0 20px;
+}
+.filterButton {
+  display: flex;
+  padding: 10px 20px;
+  border-radius: 25px;
+  border: 2px solid #d9d9d9;
+  cursor: pointer;
+  align-items: center;
+}
+.filterButton:hover {
+  background-color: #deebff;
+}
+.filterButtonIcon {
+  width: 20px;
+}
+.filterButtonText {
+  margin-left: 10px;
+}
+/* INFO ICONS */
+.info {
+  display: flex;
+  align-items: center;
+}
+.parentIcon {
+  width: 20px;
+  height: 20px;
+  border: 2px solid #f2f2f2;
+  border-radius: 25px;
+  margin-right: 5px;
+}
+/* HOME IN MARSEILLE */
+.homeContainer {
+  width: 67%;
+}
+.homeSection {
+  display: flex;
+  justify-content: space-between;
+}
+.homeBlocTitle {
+  margin-top: 4px;
+}
+.homeMarginTitle {
+  margin-left: 40px;
+  margin-top: 42px;
+}
+.imgHome {
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 124px;
+  border-radius: 20px 20px 0 0;
+}
+.blocPosition {
+  flex-wrap: wrap;
+}
+.cubeHome {
+  width: 95%;
+  height: auto;
+  background-color: white;
+  padding: 5px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  margin-bottom: 30px;
+}
+.buttonHomeBlocContainer {
+  width: 30%;
+}
+.textDecorationNone {
+  text-decoration: none;
+  color: black;
+}
+.cubeDetailsHome {
+  width: 90%;
+}
+.marginShowMore {
+  margin-left: 44px;
+  margin-bottom: 46px;
+}
+/* POPULAR */
+.mostPopularContainer {
+  width: 29%;
+}
+.buttonBlocContainer {
+  width: 100% !important;
+  margin-bottom: 40px;
+}
+.blocPopularContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 0 20px;
+}
+.popularTitleMargin {
+  margin-top: 41px;
+}
+.iconTitlePopular {
+  margin-top: 28px;
+}
+.cubePopular {
+  background-color: white;
+  height: auto;
+  padding: 1% 0% 1% 1%;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+}
+.cubeDetailsPopular {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 60%;
+  padding: 10px;
+}
+.imgPopularContainer {
+  width: 40%;
+  height: 144px;
+  border-radius: 20px 0 0 20px;
+  overflow: hidden;
+}
+.imgPopular {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+.marginP0 {
+  padding: 0;
+  margin-top: 7px;
+}
+.fontSize16Popular {
+  font-size: 16px;
+  margin: 0;
+}
+.fontSize14Popular {
+  font-size: 14px;
+}
+.backGrisPopular {
+  background-color: #f2f2f2;
+}
+/* ACTIVITIES */
+.containerActivities {
+  padding: 15px 50px;
+}
+.SizeTitleActivities {
+  font-size: 22px;
+  margin-left: 30px;
+}
+.blocActivities {
+  width: 100%;
+  height: 500px;
+}
+.cubeActivities {
+  width: 100%;
+  height: 444px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px 1px #f2f2f2;
+  overflow: hidden;
+}
+.marginTitleBloc {
+  display: flex;
+  align-items: center;
+  margin-left: 19px;
+}
+.imgActivities {
+  object-fit: cover;
+  width: 100%;
+  height: 388px;
+}
+.marginTopActivities {
+  align-items: center;
+}
+.flexBetweenActivities {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px;
+}
+.textDecorationNoneActivities {
+  text-decoration: none;
+  color: black;
+  width: 22%;
+}
+/* FOOTER */
+.footer {
+  padding: 0 53px;
+}
+.footerContainer {
+  height: auto;
+  width: 100%;
+}
+.marginBlocFooter3 {
+  margin-right: 200px;
+}
+.backGrisFooter {
+  background-color: #f2f2f2;
+}
+.flexBetweenFooter {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding-top: 30px;
+}
+/* RESPONSIVE TABLET */
+@media all and (max-width: 992px) {
+  .mainContainer {
+    padding: 15px 70px;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 48px 20px;
+  }
+  /* HOME IN MARSEILLE */
+  .homeContainer {
+    width: 100%;
+    margin-bottom: 53px;
+  }
+  .homeSection {
+    flex-direction: column;
+  }
+  /* POPULAR */
+  .mostPopularContainer {
+    width: 100%;
+  }
+  .buttonBlocContainer {
+    width: 31% !important;
+  }
+  .cubeDetailsPopular {
+    display: flex;
+  }
+  .cubePopular {
+    width: 100%;
+    height: 144px;
+    margin-top: 15px;
+  }
+  .imgPopularContainer {
+    width: 43%;
+  }
+  .blocPopularContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 50px;
+  }
+  .fontSize14Popular {
+    font-size: 11px;
+  }
+  .popularTitleMargin {
+    margin: auto;
+    margin-top: 25px;
+    margin-left: 40px;
+  }
+  .iconTitlePopular {
+    margin: auto;
+    margin-top: 30px;
+    margin-right: 40px;
+  }
+  /* ACTIVITIES */
+  .flexBetweenActivities {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 50px;
+    padding: 10px;
+  }
+  .containerActivities {
+    width: 100%;
+  }
+  .blocActivities {
+    width: 182px;
+    height: 267px;
+  }
+  .cubeActivities {
+    height: 270px;
+  }
+  .imgActivities {
+    height: 200px;
+    width: 125%;
+  }
+  .marginTopActivities {
+    margin-top: 7px;
+  }
+  .flexBetweenFooter {
+    margin-top: 60px;
+  }
+}
+/*FOOTER*/
+.footerContainer {
+  width: 100%;
+}
+.marginBlocFooter3 {
+  margin-right: 120px;
+}
+/* RESPONSIVE MOBILE */
+
+@media all and (max-width: 768px) {
+  .mainContainer {
+    padding: 15px 0;
+  }
+  /* HEAD */
+  header {
+    padding: 0;
+    flex-direction: column;
+  }
+  .logoBookiHeader {
+    padding: 0;
+    margin: 0 auto;
+  }
+  .navigator {
+    width: 100%;
+    margin-top: 35px;
+  }
+  .menuHeader {
+    display: flex;
+    width: 100%;
+  }
+  .menuHeader li {
+    width: 50% !important;
+  }
+  .buttonsHeader {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    width: 100%;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #f2f2f2;
+  }
+  .buttonsHeader:hover {
+    border-bottom: 2px solid #0065fc;
+    border-top: none;
+    max-width: none;
+  }
+  /*GENERAL*/
+  .topSectionContainer,
+  .info {
+    padding: 0 20px;
+  }
+  .blocPosition {
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  /*SEARCH*/
+  .searchInput {
+    width: calc(100% - 99px);
+  }
+  .searchMobile {
+    display: none;
+  }
+  .iconSearch {
+    display: flex;
+    justify-content: center;
+  }
+  .searchButton {
+    width: 49px;
+  }
+  /*FILTER*/
+  .filterContainer {
+    align-items: flex-start;
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
+  .filterButtonContainer {
+    padding: 0 0px;
+  }
+  .filterButtonText {
+    margin-left: 3px;
+  }
+  .filterButton {
+    width: 41%;
+    margin-top: 17px;
+    padding: 13px 10px;
+  }
+  .sizeFilter {
+    font-size: 11px;
+  }
+  /* HOME */
+  .flexBetween {
+    padding: 0 20px;
+  }
+  .homeSection {
+    flex-direction: column-reverse;
+  }
+  .homeMarginTitle {
+    width: 100%;
+    margin-left: 22px;
+    margin-top: 26px;
+  }
+  .cubeHome {
+    margin-bottom: 13px;
+  }
+  .buttonHomeBlocContainer {
+    width: 100%;
+  }
+  .backHome {
+    background-color: white;
+  }
+  /*POPULAR*/
+  .backGrisPopular {
+    border-radius: 0 !important;
+  }
+  .buttonBlocContainer {
+    width: 100% !important;
+  }
+  .popularTitleMargin {
+    margin-top: 28px;
+    margin-left: 20px;
+  }
+  .blocPopularContainer {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    padding: 0 20px;
+  }
+  .marginShowMore {
+    display: none;
+  }
+  .fontSize16Popular {
+    font-size: 14px;
+  }
+  /*ACTIVITIES*/
+  .containerActivities {
+    width: 100%;
+    margin-left: 0;
+    padding: 0 20px;
+  }
+  .textDecorationNoneActivities {
+    text-decoration: none;
+    color: black;
+    width: 90%;
+  }
+  .SizeTitleActivities {
+    margin-left: 20px;
+    width: 35%;
+  }
+  .flexBetweenActivities {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: initial;
+    margin-right: 0;
+  }
+  .blocActivities {
+    width: 100%;
+    height: 230px;
+  }
+  .cubeActivities {
+    height: 200px;
+  }
+  .imgActivities {
+    height: 150px;
+  }
+  .imgNotreDame {
+    object-position: center top !important;
+  }
+  /*FOOTER*/
+  .footer {
+    padding: 0;
+  }
+  .footerContainer {
+    margin-bottom: 0;
+    height: 501px;
+    width: 100%;
+    margin-left: 0;
+  }
+  .flexBetweenFooter {
+    flex-wrap: nowrap;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .sizeBlocFooter {
+    margin-left: 30px;
+  }
+}
